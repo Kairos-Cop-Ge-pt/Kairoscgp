@@ -1,0 +1,3 @@
+val kir = KirEngine(this) // this = context
+val response = kir.respond("ไครอส")
+textView.text = response
